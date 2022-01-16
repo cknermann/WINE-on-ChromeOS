@@ -19,4 +19,4 @@ Be sure to carefully monitor the free disk space of the Linux system and be read
 
 ![WINE](media/wine.png)
 
-I have successfully tested this using Google Chrome OS up to version 94.0 and the Linux environment running Debian 10 "Buster". It's just a tiny little script to speed up things a bit, which comes "as-it-is" without any warranties or support. Please feel free to adapt it to suit your needs.
+I have successfully tested this using Google Chrome OS up to version 97.0 and the Linux environment running Debian 11 "Bullseye". The previous version of the script worked on earlier Chrome OS versions with Debian 10 "Buster", too. It's just a tiny little script to speed up things a bit, which comes "as-it-is" without any warranties or support. Please feel free to adapt it to suit your needs.
