@@ -1,8 +1,8 @@
 # WINE-on-ChromeOS
 
-This shell-script can be used to install WINE in the Chrome OS Linux environment. It was inspired by the how-tos I found [here](https://beebom.com/how-use-windows-10-apps-chromebook-using-wine/) and [here](https://www.linuxmadesimple.info/2020/07/how-to-install-wine-501-on-chromebook.html). The commands would not work for me in the first place, though. As it turned out, the "--keyserver" parameter needed to be enhanced with protocol and port, as mentioned [here](https://unix.stackexchange.com/questions/361642/keyserver-receive-failed-on-every-keyserver-available).
+This shell-script can be used to install WINE in the Chrome OS Linux environment. It was inspired by the how-tos I found [here](https://beebom.com/how-use-windows-10-apps-chromebook-using-wine/) and [here](https://www.linuxmadesimple.info/2020/07/how-to-install-wine-501-on-chromebook.html). With Chrome OS 97 and newer moving from Debian 10 "Buster" to 11 "Bullseye", I updated the script to use OpenPGP repository signing keys instead of the depracted apt-key command, as outlined [here](https://www.linuxuprising.com/2021/01/apt-key-is-deprecated-how-to-add.html).
 
-Now the script automatically executes all necessary steps to setup WINE and launch it's configuration tool. Just install the Linux (Beta) on your Chromebook, preferably choosing more than the default partition size of 10.0 GB. Then update Linux...
+Now the script automatically executes all necessary steps to setup WINE and launch it's configuration tool. Just install the Linux environment on your Chromebook, preferably choosing more than the default partition size of 10.0 GB. Then update Linux...
 
 ```
 sudo apt-get update
